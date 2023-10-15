@@ -315,6 +315,7 @@ int main(int argc, char* argv[])
 
     cout << project.duration << endl;
 
+    //problem
     /*
     for (int j = 0; j <= size_signal; j++)
     {
@@ -322,6 +323,8 @@ int main(int argc, char* argv[])
     }
     */
     DFT(data, project.duration, project.sampling_rate, project.start_freq, project.end_freq, project.steps, project.stepsize, real, imaginary, magnitude, phase);
+
+    //quarantined problem
     /*
     for (int j = 0; j <= size_signal; j++)
     {
